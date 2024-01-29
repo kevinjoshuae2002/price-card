@@ -1,0 +1,133 @@
+
+
+
+
+
+body{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+h2,h5{
+    color: white;
+    margin: 0;
+}
+h3{
+    color: #f3f3f3;
+}
+h5{
+    color: #0be0b2;
+    font-weight: 400;
+}
+
+head,ul,li{
+    
+    padding:5px 5px 5px 5px;
+   
+}
+.k{
+    padding-left: 6px;
+}
+
+
+.h{
+    display: inline-flex;
+    position: absolute;
+    left: 70%;
+    top:0%;
+    padding:30px ;
+    
+}
+.btn-primary{
+    background-color: #0be0b2;
+    color:#f3f3f3;
+    padding:10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+    border:none;
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #f3f3f3;
+    color: #0be0b2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pricing-card{
+    width: 300px;
+    height: 350px;
+    background-color: black;
+    border-radius: 6px;
+    box-shadow:#0be0b2 0 9px 10px ;
+    padding: 20px;
+    margin:20px;
+    transition: 0.5s;
+    position: relative;
+    top:12%;
+    overflow: hidden;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-card:hover{
+    transform: scale(1.05s);
+    box-shadow: #0be0b2 0 9px 20px ;
+}
+
+.label-best{
+    background-color: #0be0b2 ;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    top:12px;
+    right: 0px;
+    padding: 20px;
+    font-weight: 600;
+}
+.price{
+    font-size: 30px;
+    color: #f3f3f3;
+    margin-top: 20px;
+}
+.c{
+    list-style-type:circle white;
+    padding:3px;
+    margin: 0;
+    color: #f3f3f3;
+}
+li::marker{
+    content: icon;
+}
+.log{
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    top:-10px;
+    right: 85%;
+    
+}
+.h{
+    list-style-type: none;
+    position: absolute;
+    left: 80%;
+    padding: 12px;
+}
+.k:hover{
+    background-color: #0be0b2;
+    box-shadow: #0be0b2 0px 5px 0px 5px;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+
